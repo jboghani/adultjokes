@@ -48,7 +48,7 @@ var app = {
     }
 };
 function changepagejvb(postid){
-		//admob.requestInterstitialAd();
+		admob.requestInterstitialAd();
 		var listvalues = postid;
 		localStorage.setItem('lists',listvalues); 
 		window.location.href="jokedetails.html";
